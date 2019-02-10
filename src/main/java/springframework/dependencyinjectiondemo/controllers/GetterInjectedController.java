@@ -3,7 +3,7 @@ package springframework.dependencyinjectiondemo.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import springframework.dependencyinjectiondemo.services.GreetingService;
+import services.GreetingService;
 
 /**
  * Created by jt on 5/24/17.

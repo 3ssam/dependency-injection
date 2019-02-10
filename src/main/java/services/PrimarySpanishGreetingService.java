@@ -1,4 +1,4 @@
-package springframework.dependencyinjectiondemo.services;
+package services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
