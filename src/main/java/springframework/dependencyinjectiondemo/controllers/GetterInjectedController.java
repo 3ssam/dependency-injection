@@ -1,9 +1,8 @@
 package springframework.dependencyinjectiondemo.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import services.GreetingService;
+import springframework.dependencyinjectiondemo.services.GreetingService;
 
 /**
  * Created by jt on 5/24/17.
@@ -17,7 +16,7 @@ public class GetterInjectedController {
     }
 
     @Autowired
-    public void setGreetingService(@Qualifier("getterGreetingService") GreetingService greetingService) {
+    public void setGreetingService( GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 }

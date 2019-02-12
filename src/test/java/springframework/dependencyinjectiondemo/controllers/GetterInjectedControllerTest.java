@@ -2,7 +2,7 @@ package springframework.dependencyinjectiondemo.controllers;
 
 import org.junit.Before;
 import org.junit.Test;
-import services.GreetingServiceImpl;
+import springframework.dependencyinjectiondemo.services.GreetingServiceImpl;
 
 import static org.junit.Assert.assertEquals;
 

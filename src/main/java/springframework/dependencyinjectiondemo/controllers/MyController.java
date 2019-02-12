@@ -1,7 +1,7 @@
 package springframework.dependencyinjectiondemo.controllers;
 
 import org.springframework.stereotype.Controller;
-import services.GreetingService;
+import springframework.dependencyinjectiondemo.services.GreetingService;
 
 /**
  * Created by jt on 5/23/17.

@@ -1,18 +1,15 @@
-package springframework.dependencyinjectiondemo;
+package springframework.dependencyinjectiondemo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
-import services.GreetingRepository;
-import services.GreetingService;
-import services.GreetingServiceFactory;
-
-import java.security.PublicKey;
+import springframework.dependencyinjectiondemo.services.GreetingRepository;
+import springframework.dependencyinjectiondemo.services.GreetingService;
+import springframework.dependencyinjectiondemo.services.GreetingServiceFactory;
 
 @Configuration
-public class config  {
+public class GreetingServiceConfig  {
 
     @Bean
     GreetingServiceFactory greetingServiceFactory(GreetingRepository repository){
