@@ -3,3 +3,12 @@ mo:
     username: Micheal Essam
     password: 987654321
     url: https://www.baeldung.com
+
+
+---
+Spring:
+  profiles: de
+
+mo:
+  jms:
+    username: Ahmed Fawzy
